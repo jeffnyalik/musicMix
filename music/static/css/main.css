@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    color: blanchedalmond;
+    font-size: 20px auto;
+}
+
+.navbar-custom {
+    background: black
+}
+
+

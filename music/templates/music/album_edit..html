@@ -1,0 +1,26 @@
+{% extends "./base.html" %}
+{% block title %}Add New{% endblock title %}
+
+{% block content %}
+<h1>Add New Album</h1>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-12 col-md-7">
+              <div class="panel panel-default">
+                  <div class="panel-body">
+                      <form action="" class="form-horizontal" method="post">
+                          {% csrf_token %}
+                          {% include 'music/form-template.html' %}
+                          <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                  <button type="submit" class="btn btn-success">Submit</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+{% endblock content %}
+  

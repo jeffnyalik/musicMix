@@ -1,0 +1,21 @@
+{% extends "./base.html" %}
+{% block content %}
+<div class="row">
+    <div class="container">
+        <div class="form-group">
+            <h1>Delete Album {{d.title}} </h1>
+            <form action="" method="post">{% csrf_token %}
+                
+                <p> {{d.title}}</p>
+                <script>
+                    const name = confirm("Are you sure you want to delete this Album?\n"+"all the songs in the album will be deleted.")
+                    if(name === false ){
+                        location = '/'
+                    }
+                </script>
+                <input type="submit"  class="btn btn-danger" value="Delete" />
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}

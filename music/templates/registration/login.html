@@ -1,0 +1,21 @@
+{% extends 'music/base.html' %}
+{% block content %}
+
+  <div class="container">
+      <div class="row">
+          <div class="jumbotron">
+              <form action="" method="post">
+                  <div class="form-group">
+                      
+                      {% csrf_token %}
+                      {{form.as_p}}
+                      <div class="form-group">
+                          <input type="submit" class="btn btn-primary" value="Login">
+                      </div>
+                      <span>Don't have an account?    <a href="{% url 'signup' %}">SignUp here...</a></span>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+{% endblock content %}
