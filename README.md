@@ -1,4 +1,4 @@
-# musicMix
+# musicMix Python/Django
 This is a music app that allows you to create an album of your favorite artists with the songs.
 The app is built in Python/Django and sqlite as the database.
 
