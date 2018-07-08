@@ -9,3 +9,9 @@ Here is a sneak preview of the app project
 ![](images/screencapture-localhost-8000-2018-07-07-15_52_22.png)
 
 ![](images/screencapture-localhost-8000-10-2018-07-07-15_53_02.png)
+
+![](images/screencapture-localhost-8000-songs-all-2018-07-07-15_51_02.png)
+
+![](images/screencapture-localhost-8000-album-new-2018-07-07-15_53_30.png)
+
+![](images/screencapture-localhost-8000-song-new-2018-07-07-15_53_56.png)
