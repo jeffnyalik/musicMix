@@ -7,3 +7,5 @@ you can download or clone it to add some more functionalities which may not be t
 Here is a sneak preview of the app project
 
 ![](images/screencapture-localhost-8000-2018-07-07-15_52_22.png)
+
+![](images/screencapture-localhost-8000-10-2018-07-07-15_53_02.png)
