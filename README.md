@@ -15,3 +15,5 @@ Here is a sneak preview of the app project
 ![](images/screencapture-localhost-8000-album-new-2018-07-07-15_53_30.png)
 
 ![](images/screencapture-localhost-8000-song-new-2018-07-07-15_53_56.png)
+
+Happy Coding!!
